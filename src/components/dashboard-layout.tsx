@@ -25,6 +25,7 @@ import {
   LogOut,
   Bot,
   Coins,
+  BookOpen,
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -32,6 +33,7 @@ import { usePathname } from "next/navigation";
 const navItems = [
   { title: "Home", icon: LayoutDashboard, href: "/" },
   { title: "Agent Fleet", icon: Bot, href: "/agents" },
+  { title: "Strategy Guide", icon: BookOpen, href: "/strategy-guide" },
 ];
 
 const systemItems = [
