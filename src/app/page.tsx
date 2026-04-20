@@ -319,22 +319,20 @@ function LSDDashboard() {
           </Card>
         </Link>
 
-        <Link href="/strategy-guide">
-          <Card className="bg-slate-800/50 border-slate-700 hover:border-blue-500/50 transition-colors cursor-pointer h-full">
-            <CardContent className="pt-6">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-lg bg-blue-500/20 flex items-center justify-center">
-                  <BookOpen className="w-6 h-6 text-blue-500" />
-                </div>
-                <div>
-                  <p className="font-medium text-white">Strategy Guide</p>
-                  <p className="text-sm text-slate-400">Comprehensive proposal</p>
-                </div>
-                <ArrowRight className="w-5 h-5 text-slate-500 ml-auto" />
+        <Card className="bg-slate-800/50 border-slate-700 hover:border-blue-500/50 transition-colors cursor-pointer h-full">
+          <CardContent className="pt-6">
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-lg bg-blue-500/20 flex items-center justify-center">
+                <BookOpen className="w-6 h-6 text-blue-500" />
               </div>
-            </CardContent>
-          </Card>
-        </Link>
+              <div>
+                <p className="font-medium text-white">Strategy Guide</p>
+                <p className="text-sm text-slate-400">See below - full proposal</p>
+              </div>
+              <ArrowRight className="w-5 h-5 text-slate-500 ml-auto" />
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
@@ -384,6 +382,129 @@ export default function Home() {
 
         {/* Main Dashboard Content */}
         <LSDDashboard />
+
+        {/* Strategy Guide Content */}
+        <Card className="bg-gradient-to-r from-blue-500/10 via-blue-600/5 to-blue-500/10 border-blue-500/30">
+          <CardHeader>
+            <CardTitle className="text-white flex items-center gap-2">
+              <BookOpen className="w-6 h-6 text-blue-500" />
+              LSD X Authority Building Strategy
+            </CardTitle>
+            <CardDescription className="text-blue-400">
+              Comprehensive dual-brand framework based on Agent Fleet research
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            {/* Executive Summary */}
+            <div className="space-y-4">
+              <h3 className="text-lg font-bold text-white">Executive Summary</h3>
+              <p className="text-slate-300">
+                Transform <span className="text-amber-400 font-medium">@DigitalGold</span> and <span className="text-amber-400 font-medium">@LSD_Gold</span> into 
+                the authoritative dual-voice for tokenized precious metals, driving LSD platform adoption through complementary personal and professional brand positioning.
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="p-4 rounded-lg bg-blue-500/10 border border-blue-500/20">
+                  <h4 className="font-medium text-white mb-2">@DigitalGold Strategy</h4>
+                  <p className="text-sm text-blue-400 font-medium mb-1">"The Sound Money Rebel"</p>
+                  <p className="text-xs text-slate-300">Passionate, accessible, contrarian education with "All Gas No Brakes" energy</p>
+                  <p className="text-xs text-slate-400 mt-2">Target: 829 → 2,500+ followers (6 months)</p>
+                </div>
+
+                <div className="p-4 rounded-lg bg-green-500/10 border border-green-500/20">
+                  <h4 className="font-medium text-white mb-2">@LSD_Gold Strategy</h4>
+                  <p className="text-sm text-green-400 font-medium mb-1">"Institutional Gold Standard"</p>
+                  <p className="text-xs text-slate-300">Professional, data-driven, partnership-focused authority</p>
+                  <p className="text-xs text-slate-400 mt-2">Target: 62 → 750+ followers (6 months)</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Research Foundation */}
+            <div className="space-y-4">
+              <h3 className="text-lg font-bold text-white">Research Foundation</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-medium text-white mb-3">Sound Money Analysis</h4>
+                  <div className="space-y-2 text-sm text-slate-300">
+                    <div>• <strong>@PeterSchiff:</strong> Unwavering consistency builds credibility</div>
+                    <div>• <strong>@zerohedge:</strong> Contrarian positions drive 3-8x engagement</div>
+                    <div>• <strong>@RealVision:</strong> Educational premium validates monetization</div>
+                    <div>• <strong>Key Insight:</strong> Historical content gets 60% higher shares</div>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-medium text-white mb-3">Institutional DeFi Analysis</h4>
+                  <div className="space-y-2 text-sm text-slate-300">
+                    <div>• <strong>@centrifuge:</strong> Partnerships generate 300% higher reach</div>
+                    <div>• <strong>Technical threads:</strong> 60% better B2B engagement</div>
+                    <div>• <strong>Data transparency:</strong> 250% better than conceptual posts</div>
+                    <div>• <strong>Optimal timing:</strong> 9-11 AM EST for institutions</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Implementation Timeline */}
+            <div className="space-y-4">
+              <h3 className="text-lg font-bold text-white">Implementation Timeline</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <h4 className="font-medium text-white mb-2">4-8 Week Foundation</h4>
+                  <div className="space-y-1 text-sm text-slate-300">
+                    <div>• Week 1-2: Voice calibration and launch</div>
+                    <div>• Week 3-4: Engagement acceleration</div>
+                    <div>• Week 5-6: Authority building</div>
+                    <div>• Week 7-8: Community scale</div>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-medium text-white mb-2">3-6 Month Scale</h4>
+                  <div className="space-y-1 text-sm text-slate-300">
+                    <div>• Month 2-3: Market leadership</div>
+                    <div>• Month 4-6: Ecosystem integration</div>
+                    <div>• Target: Top 3 market position</div>
+                    <div>• Goal: 50%+ platform attribution</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Success Metrics */}
+            <div className="space-y-4">
+              <h3 className="text-lg font-bold text-white">Success Metrics</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="p-3 rounded-lg bg-blue-500/10 border border-blue-500/20 text-center">
+                  <p className="text-blue-400 font-medium text-sm">30-Day</p>
+                  <p className="text-white font-bold">5%+ Engagement</p>
+                </div>
+                <div className="p-3 rounded-lg bg-green-500/10 border border-green-500/20 text-center">
+                  <p className="text-green-400 font-medium text-sm">60-Day</p>
+                  <p className="text-white font-bold">200%+ Growth</p>
+                </div>
+                <div className="p-3 rounded-lg bg-purple-500/10 border border-purple-500/20 text-center">
+                  <p className="text-purple-400 font-medium text-sm">90-Day</p>
+                  <p className="text-white font-bold">Top 15 Position</p>
+                </div>
+                <div className="p-3 rounded-lg bg-orange-500/10 border border-orange-500/20 text-center">
+                  <p className="text-orange-400 font-medium text-sm">6-Month</p>
+                  <p className="text-white font-bold">Top 5 Market</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Implementation Status */}
+            <div className="p-4 rounded-lg bg-green-500/10 border border-green-500/30">
+              <div className="flex items-center gap-3">
+                <CheckCircle className="w-6 h-6 text-green-500" />
+                <div>
+                  <h4 className="font-medium text-white">Ready for Implementation</h4>
+                  <p className="text-green-400 text-sm">Complete strategy with research-backed framework • Immediate start capability</p>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </DashboardLayout>
   );
