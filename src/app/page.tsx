@@ -319,20 +319,22 @@ function LSDDashboard() {
           </Card>
         </Link>
 
-        <Card className="bg-slate-800/50 border-slate-700 hover:border-blue-500/50 transition-colors cursor-pointer h-full">
-          <CardContent className="pt-6">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-lg bg-blue-500/20 flex items-center justify-center">
-                <BookOpen className="w-6 h-6 text-blue-500" />
+        <Link href="/strategy-guide">
+          <Card className="bg-slate-800/50 border-slate-700 hover:border-blue-500/50 transition-colors cursor-pointer h-full">
+            <CardContent className="pt-6">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-lg bg-blue-500/20 flex items-center justify-center">
+                  <BookOpen className="w-6 h-6 text-blue-500" />
+                </div>
+                <div>
+                  <p className="font-medium text-white">Strategy Guide</p>
+                  <p className="text-sm text-slate-400">Comprehensive proposal</p>
+                </div>
+                <ArrowRight className="w-5 h-5 text-slate-500 ml-auto" />
               </div>
-              <div>
-                <p className="font-medium text-white">Strategy Guide</p>
-                <p className="text-sm text-slate-400">Comprehensive proposal</p>
-              </div>
-              <ArrowRight className="w-5 h-5 text-slate-500 ml-auto" />
-            </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+        </Link>
       </div>
     </div>
   );
